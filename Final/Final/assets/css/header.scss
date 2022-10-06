@@ -1,0 +1,211 @@
+.forback{
+    
+
+    background-color: #f7f7f7;
+  
+    .header_buttom{
+  
+   
+  
+        a{
+  
+            font-size: 18px;
+  
+        }
+  
+   
+  
+        .category{
+  
+            background-color: #3577f0;
+  
+            margin: 0;
+  
+            a{
+  
+                text-decoration: none;
+  
+                color: white;
+  
+                i{
+  
+                    margin-right: 10px;
+  
+                }
+  
+            }
+  
+        }
+  
+   
+  
+        .navbar{
+  
+            ul{
+  
+                list-style: none;
+  
+                li{
+  
+                    display: inline-block !important;
+  
+                    transition: .3s;
+  
+                    position: relative;
+  
+                    a{
+  
+                        box-sizing: border-box;
+  
+                        display: inline-block !important;
+  
+                        padding-top: 10px;
+  
+                        margin-right: 20px;
+  
+                        text-decoration: none;
+  
+                        color: black;
+  
+                        i{
+  
+                            color: gray;
+  
+                        }
+  
+   
+  
+                    }
+  
+                    ul{
+  
+                        background-color: white;
+  
+                        display: none !important;
+  
+                        position: absolute !important;
+  
+                        box-shadow: 0px 0px 4px;
+  
+                        border-radius: 10px;
+  
+                        width: 210px;
+  
+                        padding-bottom: 5px;
+  
+                        li{
+  
+                            margin-top: 5px;
+  
+                            display: none !important;
+  
+                        }
+  
+                    }
+  
+                   
+  
+                
+                    
+  
+                }
+  
+   
+  
+                li:hover{
+  
+                        ul{
+  
+                            display: block !important;
+  
+                        }
+  
+                   
+  
+                }
+  
+            }
+  
+        }
+  
+   
+  
+        .account{
+  
+            a{
+  
+              display: inline-block;
+  
+              color: black;
+  
+              font-size: 20px;
+  
+              margin: 0 5px;
+  
+              padding: 5px 10px;
+  
+              border-radius: 100%;
+  
+              transition: .3s;
+  
+       
+  
+            }
+  
+            a:hover{
+  
+              background-color: rgb(242, 13, 13);
+  
+              color: white;
+  
+              transform: scale(1.1);
+  
+            }
+  
+     
+  
+            #basket{
+  
+              position: relative;
+  
+              span{
+  
+                  display: inline;
+  
+                  position: absolute;
+  
+                  padding: 4px;
+  
+                  background-color: blue;
+  
+                  color: white;
+  
+                  border-radius: 100%;
+  
+                  font-size: 10px;
+  
+                  margin-top: -7px;
+  
+                  margin-left: -7px;
+  
+              }
+  
+            }
+  
+     
+  
+           
+  
+          }
+  
+    }
+  
+  
+  
+  }
+
+
+  #megadeal{
+    padding: 50px;
+    position: relative;
+  }
